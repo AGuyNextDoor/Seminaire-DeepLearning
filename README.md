@@ -3,10 +3,19 @@
 
 Seminaire DEEP LEARNING
 
-Objectif : Coder un DQN capable d'apprendre à jouer à 2048.
+**Objectif** : Coder un DQN capable d'apprendre à jouer à 2048.
 
 Avec PyTorch, dans le fichier "dqnlearner_bot.py" et dans le fichier "botDQN.py", vous devez créer une classe qui va pouvoir apprendre sur les différentes parties de 2048 qu'il pourra jouer.
 
+Le serveur se trouve dans le fichier `interface.py`
+La classe du bot DQN se trouve dans le fichier `dqnlearner_bot.py`
+L'appel de la classe et l'interaction avec le jeu 2048 se trouve dans le fichier `botDQN.py`
+Un exemple d'interaction se trouve dans le fichier `botsmarter.py`
+
+Pour lancer le fichier il faut lancer au choix les commandes suivantes :
+
+- Lancer le bot d'exemple : `$ ./interface.py 123 ./botsmarter.py`
+- Lancer le bot DQN : `$ ./interface.py 123 ./botDQN.py`
 
 ====
 A python implementation of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024)/[2048](http://saming.fr/p/2048/) with a local socket interface for creating competing bots.

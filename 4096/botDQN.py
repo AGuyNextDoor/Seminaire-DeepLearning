@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from bothelper import read_board, up, down, left, right, botsetup, rotate_board, merge_count, print_board
-from dqnlearner_bot import DQNLearner
+from dqnlearner_class import DQNLearner
 import os
 # register name
 s = botsetup("smarter-example")
